@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tmp1110"
+version = "0.1.0"
+description = ""
+authors = ["RueiyunLin <una15.lin@ehsn.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.86.0"
+uvicorn = "^0.19.0"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.86.0"
+uvicorn = "^0.19.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
